@@ -7,7 +7,7 @@ from train import run
 from tuning import search_best_hp
 
 if __name__ == '__main__':
-    # GCN
+    # GCN GCN
     dataset, model, optimizer = create_gcn_model('Cora')
     run(dataset, model, optimizer, verbose=False)
 
